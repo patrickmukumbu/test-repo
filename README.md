@@ -1,5 +1,3 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/patrickmukumbu/test-repo?label=version)](https://packagist.org/packages/patrickmukumbu/test-repo)
-[![License](https://img.shields.io/packagist/l/patrickmukumbu/test-repo)](https://packagist.org/packages/patrickmukumbu/test-repo)
 
 [<img src="https://avatars.githubusercontent.com/u/25388280?s=200&v=4" width="96"/>](https://boldlink.io)
 
