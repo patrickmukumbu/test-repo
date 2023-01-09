@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/create-license-badge@v1
+      - uses: marketplace/actions/create-license-badge@v1
         with:
           file: 'LICENSE'
           output: 'badge.svg'
