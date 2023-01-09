@@ -1,0 +1,37 @@
+name: auto-badge
+
+on:
+  push:
+
+    branches:
+      - 'fix/*'
+      - 'fixes/*'
+      - 'feature/*'
+      - 'features/*'
+      - 'hotfix/*'
+      - 'hotfixes/*'
+      - 'release/*'
+      - 'releases/*'
+      - 'chore/*'
+      - 'chores/*'
+
+permissions: read-all
+
+jobs:
+  create-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: marketplace/actions/create-license-badge@v1
+        with:
+          file: 'LICENSE'
+          output: 'badge.svg'
+          color: 'brightgreen'
+      - name: Create commit with badge
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add badge.svg
+          git commit -m "Update license badge"
+          git push
+
