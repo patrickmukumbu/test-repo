@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/LICENSE-Apache-green.svg)](https://github.com/patrickmukumbu/test-repo/blob/main/LICENSE)
-[![Release1](https://img.shields.io/github/v/release/patrickmukumbu/test-repo.svg)](https://github.com/patrickmukumbu/test-repo/releases)
-[![Release2](https://img.shields.io/github/v/release/:patrickmukumbu/:test-repo?Release)](https://github.com/patrickmukumbu/test-repo/releases)
-[![Release3](https://img.shields.io/github/v/release/patrickmukumbu/test-repo?include_prereleases)](https://github.com/patrickmukumbu/test-repo/releases)
+[![Release1](https://img.shields.io/github/v/releases/patrickmukumbu/test-repo.svg)](https://github.com/patrickmukumbu/test-repo/releases)
+[![Release2](https://img.shields.io/github/v/releases/:patrickmukumbu/:test-repo?Release)](https://github.com/patrickmukumbu/test-repo/releases)
+[![Release3](https://img.shields.io/github/v/releases/patrickmukumbu/test-repo?include_prereleases)](https://github.com/patrickmukumbu/test-repo/releases)
 
 
 
