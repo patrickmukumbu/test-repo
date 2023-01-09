@@ -18,17 +18,20 @@ on:
 permissions: read-all
 
 jobs:
-  auto-badge:
+  create-badge:
     runs-on: ubuntu-latest
     steps:
-    - name: Git checkout
-      uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.AUTO }}
-        
-    - name: Add License and Other Badgess
-      uses: rocktimsaikia/badge-it@master
-      with:
-        GITHUB_TOKEN: ${{ secrets.AUTO }}
-        badges: 'gh_license, gh_version, gh_stars, gh_open_pr'
-        badge-style: 'flat-square'
+      - uses: actions/checkout@v3
+      - uses: actions/create-license-badge@v1
+        with:
+          file: 'LICENSE'
+          output: 'badge.svg'
+          color: 'brightgreen'
+      - name: Create commit with badge
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add badge.svg
+          git commit -m "Update license badge"
+          git push
+
