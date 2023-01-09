@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/LICENSE-Apache 2-green.svg)](https://github.com/patrickmukumbu/test-repo/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/LICENSE-Apache-green.svg)](https://github.com/patrickmukumbu/test-repo/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/patrickmukumbu/test-repo.svg)](https://github.com/patrickmukumbu/test-repo/releases)
 [![Release](https://img.shields.io/github/v/release/:patrickmukumbu/:test-repo?Release)](https://github.com/patrickmukumbu/test-repo/releases)
 [![Release](https://img.shields.io/github/v/release/patrickmukumbu/test-repo?include_prereleases)](https://github.com/patrickmukumbu/test-repo/releases)
