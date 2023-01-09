@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-Apache-green.svg)](https://github.com/patrickmukumbu/test-repo/blob/main/LICENSE)
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/patrickmukumbu/test-repo/releases)
+[![Release](https://img.shields.io/badge/Release-1.0.0-blue.svg)](https://github.com/patrickmukumbu/test-repo/releases)
 
 
 
